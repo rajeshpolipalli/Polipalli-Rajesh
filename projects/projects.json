@@ -14,7 +14,7 @@
   {
     "name": "BreezeBlog",
     "desc": "Created a user-friendly interface for BreezeBlog, enhancing the overall user experience through responsive design and intuitive navigation.",
-    "image": "assets/images/educat/social.jpg",
+    
     "category": "social",
     "links": {
       "code": "https://github.com/rajeshpolipalli/BreezeBlog"
@@ -22,9 +22,9 @@
   },
   
   {
-    "name": "Service",
+    "name": "Service Mangement System",
     "desc": ": Designed algorithms for adding, updating, and deleting vehicle records, ensuring data integrity and validation.",
-    "image": "assets/images/educat/service_manage_sys.jpg",
+    
     "category": "service",
     "links": {
       
@@ -33,9 +33,9 @@
   },
   
   {
-    "name": "Curlinary",
+    "name": "Curlinary Connect",
     "desc": "Utilized Python to streamline data processing and storage, ensuring seamless access to recipes and user-generated content in Culinary Connect.",
-    "image": "assets/images/educat/curlinary.jpg",
+   
     "category": "mern",
     "links": {
         "code": "https://github.com/rajeshpolipalli/Culinary-Connect"
@@ -53,7 +53,7 @@
 {
   "name": "Coming Soon...",
   "desc": "New projects are coming soon...",
-  "image": "assets/images/educat/coming.jpg",
+ 
   "category": "coming",
   "links": {
       "code": "https://github.com/rajeshpolipalli/"
