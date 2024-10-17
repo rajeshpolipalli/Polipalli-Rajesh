@@ -12,10 +12,7 @@
     },
    
   
-    {
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
-    },
+  
     {
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
@@ -59,10 +56,7 @@
         "name": "PostgreSQL",
         "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
     },
-    {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
+    
     
     {
         "name": "jQuery",
