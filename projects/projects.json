@@ -17,7 +17,9 @@
     
     "category": "social",
     "links": {
-      "views":
+      "views":"
+assets/images/educat/social.jpg"
+      
       "code": "https://github.com/rajeshpolipalli/BreezeBlog"
     }
   },
@@ -28,7 +30,7 @@
     
     "category": "service",
     "links": {
-     
+     "views": "assets/images/educat/service mange sys.jpg"
       "code": "https://github.com/rajeshpolipalli/Service-Mangement-System---Django"
     }
   },
@@ -39,7 +41,7 @@
    
     "category": "mern",
     "links": {
-        
+        "views":"assets/images/educat/curlinary.jpg"
         "code": "https://github.com/rajeshpolipalli/Culinary-Connect"
     }
 },
@@ -49,7 +51,7 @@
   "image": "assets/images/educat/h1.png",
   "category": "Hacker",
   "links": {
-   
+   "views":"assets/images/educat/h1.png"
     "code": "https://github.com/rajeshpolipalli/leetcode-checker"
   }
 },
@@ -60,7 +62,7 @@
   "category": "coming",
   "links": {
      
-
+    "views":"assets/images/educat/comming.jpg"
       "code": "https://github.com/rajeshpolipalli/"
   }
 }
