@@ -6,7 +6,7 @@
     
     "category": "AI",
     "links": {
-      
+      "views":"assets/images/educat/ai-5.jpeg"
       "code": "https://github.com/rajeshpolipalli/AI-Chatbot-using-jupter-book-algorithms"
     }
   },
@@ -17,7 +17,7 @@
     
     "category": "social",
     "links": {
-      
+      "views":
       "code": "https://github.com/rajeshpolipalli/BreezeBlog"
     }
   },
