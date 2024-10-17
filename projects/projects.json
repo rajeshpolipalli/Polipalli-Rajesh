@@ -6,7 +6,7 @@
     
     "category": "AI",
     "links": {
-      "views":"https://github.com/rajeshpolipalli/AI-Chatbot-using-jupter-book-algorithms"
+      
       "code": "https://github.com/rajeshpolipalli/AI-Chatbot-using-jupter-book-algorithms"
     }
   },
@@ -17,7 +17,7 @@
     
     "category": "social",
     "links": {
-      "views":"https://github.com/rajeshpolipalli/BreezeBlog"
+      
       "code": "https://github.com/rajeshpolipalli/BreezeBlog"
     }
   },
@@ -28,7 +28,7 @@
     
     "category": "service",
     "links": {
-      "views":"https://github.com/rajeshpolipalli/Service-Mangement-System---Django"
+     
       "code": "https://github.com/rajeshpolipalli/Service-Mangement-System---Django"
     }
   },
@@ -39,7 +39,7 @@
    
     "category": "mern",
     "links": {
-        "views":"https://github.com/rajeshpolipalli/Culinary-Connect"
+        
         "code": "https://github.com/rajeshpolipalli/Culinary-Connect"
     }
 },
@@ -49,7 +49,7 @@
   "image": "assets/images/educat/h1.png",
   "category": "Hacker",
   "links": {
-    "views":"https://github.com/rajeshpolipalli/leetcode-checker"
+   
     "code": "https://github.com/rajeshpolipalli/leetcode-checker"
   }
 },
@@ -60,7 +60,7 @@
   "category": "coming",
   "links": {
      
-"views": "https://github.com/rajeshpolipalli/"
+
       "code": "https://github.com/rajeshpolipalli/"
   }
 }
