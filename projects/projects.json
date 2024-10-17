@@ -1,0 +1,65 @@
+[
+  
+  {
+    "name": "AI  CustumerChatbot",
+    "desc": "Developed an AI-powered chatbot using Python, capable of handling real-time conversations, providing responses based on user queries.",
+    "image": "assets/images/educat/ai-5.jpeg",
+    "category": "AI",
+    "links": {
+      
+      "code": "https://github.com/rajeshpolipalli/AI-Chatbot-using-jupter-book-algorithms"
+    }
+  },
+  
+  {
+    "name": "BreezeBlog",
+    "desc": "Created a user-friendly interface for BreezeBlog, enhancing the overall user experience through responsive design and intuitive navigation.",
+    "image": "assets/images/educat/social.jpg",
+    "category": "social",
+    "links": {
+      "code": "https://github.com/rajeshpolipalli/BreezeBlog"
+    }
+  },
+  
+  {
+    "name": "Service",
+    "desc": ": Designed algorithms for adding, updating, and deleting vehicle records, ensuring data integrity and validation.",
+    "image": "assets/images/educat/service_manage_sys.jpg",
+    "category": "service",
+    "links": {
+      
+      "code": "https://github.com/rajeshpolipalli/Service-Mangement-System---Django"
+    }
+  },
+  
+  {
+    "name": "Curlinary",
+    "desc": "Utilized Python to streamline data processing and storage, ensuring seamless access to recipes and user-generated content in Culinary Connect.",
+    "image": "assets/images/educat/curlinary.jpg",
+    "category": "mern",
+    "links": {
+        "code": "https://github.com/rajeshpolipalli/Culinary-Connect"
+    }
+},
+{
+  "name": "Hacker Rank",
+  "desc": "Developed a robust plagiarism checker using Python and natural language processing techniques to identify copied content across multiple sources.",
+  "image": "assets/images/educat/h1.png",
+  "category": "Hacker",
+  "links": {
+    "code": "https://github.com/rajeshpolipalli/leetcode-checker"
+  }
+},
+{
+  "name": "Coming Soon...",
+  "desc": "New projects are coming soon...",
+  "image": "assets/images/educat/coming.jpg",
+  "category": "coming",
+  "links": {
+      "code": "https://github.com/rajeshpolipalli/"
+  }
+}
+]
+  
+  
+  
