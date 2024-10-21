@@ -30,20 +30,14 @@
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
+   
    
    
     {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
+   
     {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
@@ -59,7 +53,7 @@
     
     
     {
-        "name": "jQuery",
+        "name": "jSon",
         "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
     },
     {
