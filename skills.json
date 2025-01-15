@@ -5,12 +5,7 @@
     },
    
     
-   
-    {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
-    },
-   
+  
   
   
     {
@@ -56,10 +51,7 @@
     },
     
     
-    {
-        "name": "jSon",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
+
     {
         "name": "Git VCS",
         "icon": "https://img.icons8.com/color/48/000000/git.png"
