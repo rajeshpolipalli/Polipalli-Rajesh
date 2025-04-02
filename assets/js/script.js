@@ -64,7 +64,7 @@ t$(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = " Portfoilo | Polipalli ";
+            document.title = "Portfolio | Polipalli ";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
