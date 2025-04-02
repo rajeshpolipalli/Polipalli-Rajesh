@@ -1,4 +1,4 @@
-$(document).ready(function () {
+t$(document).ready(function () {
 
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
@@ -64,7 +64,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Polipalli";
+            document.title = " Polipalli.com ";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -76,7 +76,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Frontend Developer", "Backend Developer", "Embedded Systems Engineer."],
+    strings: ["Frontend Development", "Backend Development", "Embedded Systems Engineer."],
     loop: true,
     typeSpeed: 30,
     backSpeed: 20,
