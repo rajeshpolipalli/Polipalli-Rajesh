@@ -74,7 +74,7 @@ var typed = new Typed(".typing-text", {
     strings: ["frontend development", "backend development",  "Embedded Systems Engineer"],
     loop: true,
     typeSpeed: 50,
-    backSpeed: 50,
+    backSpeed: 25,
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
