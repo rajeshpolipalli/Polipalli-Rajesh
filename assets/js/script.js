@@ -38,15 +38,7 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-<!-- Add this inside your HTML file if not already included -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
-<script>
-    // Initialize EmailJS globally
-    emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-    $(document).ready(function () {
         $("#contact-form").submit(function (event) {
             event.preventDefault(); // Prevent default form submission
 
@@ -60,9 +52,8 @@ $(document).ready(function () {
                     console.log('FAILED...', error);
                     alert("Form Submission Failed! Try Again");
                 });
-        });
-    });
-</script>
+
+
 
     // <!-- emailjs to mail contact form data -->
 
