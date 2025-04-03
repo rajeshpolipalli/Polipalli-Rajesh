@@ -45,10 +45,10 @@ $(document).ready(function () {
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
+                alert("Form Submitted is not Succesfully So Please Try again");
             }, function (error) {
                 console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+                alert("Form Submitted Sucessfully 😊 | Thank Q Visting My Profile 🤝"");
             });
         event.preventDefault();
     });
@@ -74,7 +74,7 @@ var typed = new Typed(".typing-text", {
     strings: ["frontend development", "backend development",  "Embedded Systems Engineer"],
     loop: true,
     typeSpeed: 50,
-    backSpeed: 25,
+    backSpeed: 50,
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
