@@ -45,12 +45,12 @@ $(document).ready(function () {
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
-                alert("Form Submitted Sucessfully 😊 | Thank Q Visting My Profile 🤝");
+                alert("Form Submitted Successfully");
             }, function (error) {
                 console.log('FAILED...', error);
-                alert("Form Not Submitted Sucessfully");
-            });                                                                                                                                                     
-
+                alert("Form Submission Failed! Try Again");
+            });
+        event.preventDefault();
     });
     // <!-- emailjs to mail contact form data -->
 
