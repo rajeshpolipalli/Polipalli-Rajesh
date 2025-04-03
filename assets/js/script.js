@@ -42,14 +42,14 @@ $(document).ready(function () {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-.then(function (response) {
-    console.log('SUCCESS!', response.status, response.text);
-    document.getElementById("contact-form").reset();
-    alert("Form Submitted Successfully 😊 | Thank You for Visiting My Profile 🤝");
-}, function (error) {
-    console.log('FAILED...', error);
-    alert("Failed to Submit Form. Please Try Again.");
-});
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+                document.getElementById("contact-form").reset();
+                alert("Form Submitted Sucessfully 😊 | Thank Q Visting My Profile 🤝");
+            }, function (error) {
+                console.log('FAILED...', error);
+                alert("Form Not Submitted Sucessfully");
+            });                                                                                                                                                     
 
     });
     // <!-- emailjs to mail contact form data -->
