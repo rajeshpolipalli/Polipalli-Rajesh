@@ -48,8 +48,7 @@ $(document).ready(function () {
                 alert("Form Submitted Successfully");
             }, function (error) {
                 console.log('FAILED...', error);
-                alert("Form Submitted Sucessfully 😊 
-                      Thank Q Visting My Profile 🤝");
+                alert("Form Submitted Sucessfully 😊");
             });
         event.preventDefault();
     });
