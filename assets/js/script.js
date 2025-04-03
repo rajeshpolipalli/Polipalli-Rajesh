@@ -38,20 +38,32 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+<!-- Add this inside your HTML file if not already included -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
+<script>
+    // Initialize EmailJS globally
+    emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+
+    $(document).ready(function () {
+        $("#contact-form").submit(function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            emailjs.sendForm('contact_service', 'template_contact', this)
+                .then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    document.getElementById("contact-form").reset();
+                    alert("Form Submitted Successfully");
+                })
+                .catch(function (error) {
+                    console.log('FAILED...', error);
+                    alert("Form Submission Failed! Try Again");
+                });
+        });
     });
+</script>
+
     // <!-- emailjs to mail contact form data -->
 
 });
