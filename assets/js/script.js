@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -15,7 +14,8 @@ $(document).ready(function () {
         } else {
             document.querySelector('#scroll-top').classList.remove('active');
         }
-                // scroll spy
+
+        // scroll spy
         $('section').each(function () {
             let height = $(this).height();
             let offset = $(this).offset().top - 200;
@@ -45,10 +45,10 @@ $(document).ready(function () {
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
-                alert("Form Submitted is not Succesfully So Please Try again");
+                alert("Form Submitted Successfully");
             }, function (error) {
                 console.log('FAILED...', error);
-                alert("Form Submitted Sucessfully 😊 | Thank Q Visting My Profile 🤝"");
+                alert("Form Submission Failed! Try Again");
             });
         event.preventDefault();
     });
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development",  "Embedded Systems Engineer"],
+    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
