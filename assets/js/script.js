@@ -1,4 +1,5 @@
-t$(document).ready(function () {
+
+$(document).ready(function () {
 
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
@@ -14,8 +15,7 @@ t$(document).ready(function () {
         } else {
             document.querySelector('#scroll-top').classList.remove('active');
         }
-
-        // scroll spy
+                // scroll spy
         $('section').each(function () {
             let height = $(this).height();
             let offset = $(this).offset().top - 200;
@@ -40,7 +40,7 @@ t$(document).ready(function () {
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-    
+
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
@@ -48,15 +48,10 @@ t$(document).ready(function () {
                 alert("Form Submitted Successfully");
             }, function (error) {
                 console.log('FAILED...', error);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully (with some issues)");
+                alert("Form Submission Failed! Try Again");
             });
-            
         event.preventDefault();
     });
-    
-    
-    
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -64,7 +59,7 @@ t$(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Polipalli ";
+            document.title = "Portfolio | Jigar Sable";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -76,10 +71,10 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Frontend Developer", "Backend Developer", "Embedded Systems Engineer."],
+    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
     loop: true,
-    typeSpeed: 30,
-    backSpeed: 20,
+    typeSpeed: 50,
+    backSpeed: 25,
     backDelay: 500,
 });
 // <!-- typed js effect ends -->
@@ -253,4 +248,4 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
-srtop.reveal('.contact .container .form-group', { delay: 400 });                                                                               
+srtop.reveal('.contact .container .form-group', { delay: 400 });
