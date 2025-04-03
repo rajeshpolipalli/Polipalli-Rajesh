@@ -43,12 +43,12 @@ $(document).ready(function () {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
+            .then(function (error) {
+                console.log('FAILED...', error);
                 document.getElementById("contact-form");
                 alert("Form is not Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
+            }, function (response) {
+                console.log(('SUCCESS!', response.status, response.text);
                 alert("Form Submitted Sucessfully 😊 | Thank Q Visting My Profile 🤝").reset();
             });
         event.preventDefault();
