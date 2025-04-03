@@ -45,10 +45,10 @@ $(document).ready(function () {
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
+                alert("Failed to Submitted form Please Try Again ");
             }, function (error) {
                 console.log('FAILED...', error);
-                alert("Form Submitted Sucessfully 😊");
+                alert("Form Submitted Sucessfully 😊 | Thank Q Visting My Profile 🤝");
             });
         event.preventDefault();
     });
