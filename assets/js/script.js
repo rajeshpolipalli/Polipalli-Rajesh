@@ -45,11 +45,11 @@ $(document).ready(function () {
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
+                document.getElementById("contact-form");
+                alert("Form is not Submitted Successfully");
             }, function (error) {
                 console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+                alert("Form Submitted Sucessfully 😊 | Thank Q Visting My Profile 🤝").reset();
             });
         event.preventDefault();
     });                                                                                                                                                                           
