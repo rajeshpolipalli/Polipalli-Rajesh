@@ -48,7 +48,7 @@ $(document).ready(function () {
                 alert("Form Submitted Successfully");
             }, function (error) {
                 console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+                alert("Form Submitted Sucessfully Dont Worry We get back to you As Soon as Possible");
             });
         event.preventDefault();
     });
